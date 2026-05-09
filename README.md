@@ -304,46 +304,9 @@ Las letras se dibujan con el eje X invertido para que, al verse reflejadas en un
 
 ## 10. Plano de Planta
 
-```
-                        PLANO DE PLANTA — ÁREA DE TRABAJO
-    
-    ┌──────────────────────────────────────────────────────────────┐
-    │                                                              │
-    │   [PARED]                                                    │
-    │                                                              │
-    │         ┌──────────────────────────────────┐                │
-    │         │         MESA DE TRABAJO           │                │
-    │         │                                  │                │
-    │         │    ┌──────────────────────┐      │                │
-    │         │    │   ÁREA DE DIBUJO     │      │                │
-    │         │    │   (Plano XY)         │      │                │
-    │         │    │   400mm x 400mm      │      │                │
-    │         │    │                      │      │                │
-    │         │    │   ← Rosa Polar       │      │                │
-    │         │    │   ← Nombres          │      │                │
-    │         │    └──────────────────────┘      │                │
-    │         │                                  │                │
-    │         └──────────────────────────────────┘                │
-    │                         ▲                                    │
-    │                         │ 500mm                             │
-    │                         │                                    │
-    │              ┌──────────┴──────────┐                        │
-    │              │   MOTOMAN MH6       │                        │
-    │              │   (Base del robot)  │                        │
-    │              │   ⊕ Origen (0,0,0)  │                        │
-    │              └─────────────────────┘                        │
-    │                                                              │
-    │   [CONTROLADOR DX100]          [PC + RoboDK]                │
-    │   ┌──────────────┐             ┌──────────────┐             │
-    │   │  ████████    │ ←Ethernet→  │   💻         │             │
-    │   └──────────────┘             └──────────────┘             │
-    │                                                              │
-    └──────────────────────────────────────────────────────────────┘
-    
-    Escala: No a escala | Unidades: mm
-    Alcance máximo robot: 1422 mm
-```
+El plano de trabajo del area de operacion del robot Motoman MH6 se encuentra en el siguiente archivo:
 
+📄 **[Ver Plano de Trabajo (PDF)](PLANO%20DE%20TRABAJO.pdf)**
 ---
 
 ## 11. Videos de Evidencia
